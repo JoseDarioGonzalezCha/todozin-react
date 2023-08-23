@@ -45,6 +45,10 @@ export const TagImgAbacate = styled.img`
   height: 13.25rem;
   flex-shrink: 0;
   margin: 20px 0;
+  &:hover {
+    filter: drop-shadow(8px 8px 4px #faea10);
+    transition: 0.2s;
+  }
 `;
 
 export const TagDivSearch = styled.div`
