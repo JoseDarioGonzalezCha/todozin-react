@@ -1,11 +1,10 @@
-import { useContext, useEffect, useState } from "react";
+import { useContext, useEffect } from "react";
 import { ApiContext } from "../../../../Contexts/ApiContext";
 
 // Images
-import vector from "../../../../assets/Vector.png";
+import vector from "../../../../assets/vector.png";
 import abacate from "../../../../assets/abacate.png";
 import iconsearch from "../../../../assets/iconsearch.png";
-import archiveadd from "../../../../assets/archiveadd.png";
 
 // Styles
 import {
@@ -18,7 +17,6 @@ import {
   TagH2,
   TagImgAbacate,
   TagImgMenu,
-  TagImgSection,
   TagInput,
   TagP,
 } from "./TaskMenu.styles";
